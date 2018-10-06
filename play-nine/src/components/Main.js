@@ -7,6 +7,7 @@ import StarBoard from './StarBoard';
 const Main = (props) => {
   return (
     <div className='main-section'>
+    
       <div className='left-section'>
         <StarBoard count={props.currentNumber} />
       </div>

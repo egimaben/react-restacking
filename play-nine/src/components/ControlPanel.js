@@ -7,6 +7,8 @@ const ControlPanel = (props) => {
       refreshClassNames += ' btn-disabled';
     }
     return (
+      <div className='controls-container'>
+      <div className='left-padding' />
       <div className='controls'>
         <button className={equalsClassNames} onClick={props.processInput}>
           <img alt='equals button' src='/equal.png' />
@@ -14,6 +16,9 @@ const ControlPanel = (props) => {
         <button className={refreshClassNames} onClick={props.generateStars}>
           <img alt='refresh button' src='/refresh.png' />
         </button>
+      </div>
+      <div className='right-padding' />
+
       </div>
     );
   }

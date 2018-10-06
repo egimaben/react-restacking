@@ -1,20 +1,25 @@
-.equals-button{
-    margin:10px;
+.controls button{
     border-radius:5px;
     display:block;
-    margin:20px;
+    margin:20px 0;
+
 }
-.refresh-button{
-  margin:10px;
-  border-radius:5px;
-  display:block;
-  margin:20px;
-}
+
 .red{
   background-color:red;
 }
+.controls-container{
+  display:flex;
+}
+.left-padding{
+  width: 40%;
+}
+.right-padding{
+  width:40%;
+}
 .controls{
-  padding:30px 20px;
+  width:20%;
+  padding:20px;
 }
 .header{
   display:flex;
@@ -80,7 +85,6 @@
   background-color:lightcoral;
 }
 .number-container{
-	border:1px solid lightgray;
   padding:20px;
   border-radius:5px;
   text-align:center
